@@ -17,3 +17,10 @@ Simple text-based decision game that asks 3 questions which player need to explo
 Game where computer hides randomly a treasure in 3x3 grid and player needs to guess where it is.
 ### Rock-Paper-Scissors
 Classic rock-paper-scissors game.
+
+## Day 5
+### FizzBuzz
+Solution for classic FizzBuzz program.
+
+### Password Generator
+Generates a password based on user input.
