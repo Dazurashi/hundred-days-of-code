@@ -24,3 +24,7 @@ Solution for classic FizzBuzz program.
 
 ### Password Generator
 Generates a password based on user input.
+
+## Day 6
+### Solution for Reeborg's World puzzle
+Guides the robot to its goal without getting stuck. Link to the problem is in the text file under day 6 folder as well as the algortihm needed to solve it.
