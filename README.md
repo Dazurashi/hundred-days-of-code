@@ -32,3 +32,7 @@ Guides the robot to its goal without getting stuck. Link to the problem is in th
 ## Day 7 
 ### Hangman
 Simple game of classic hangman.
+
+## Day 8
+### Caesar Cipher
+Program uses Caesar cipher to encode message. Use can also decode messages if they know the given shift.
