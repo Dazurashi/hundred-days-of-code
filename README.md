@@ -36,3 +36,7 @@ Simple game of classic hangman.
 ## Day 8
 ### Caesar Cipher
 Program uses Caesar cipher to encode message. Use can also decode messages if they know the given shift.
+
+## Day 9
+### Secret Auction
+Secret auction is an auction where bidders can't see the bids of others. In the end the person who's bid was highest wins the item.
