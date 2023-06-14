@@ -44,3 +44,7 @@ Secret auction is an auction where bidders can't see the bids of others. In the 
 ## Day 10
 ### Calculator
 Simple a arithmetic calculator that allows user to keep manipulating results that they got.
+
+## Day 11
+### Blackjack
+A game of Blackjack where computer is the dealer. Played on console. 
