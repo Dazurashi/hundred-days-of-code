@@ -48,3 +48,7 @@ Simple a arithmetic calculator that allows user to keep manipulating results tha
 ## Day 11
 ### Blackjack
 A game of Blackjack where computer is the dealer. Played on console. 
+
+## Day 12
+### Number Guessing Game
+If you're a programmer, you've probably made a program like this. The point is to guess a random number. In this case the number is between 1 and 100.
