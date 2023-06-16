@@ -52,3 +52,7 @@ A game of Blackjack where computer is the dealer. Played on console.
 ## Day 12
 ### Number Guessing Game
 If you're a programmer, you've probably made a program like this. The point is to guess a random number. In this case the number is between 1 and 100.
+
+## Day 13
+### Debugging
+The content I've been following didn't have a project for this day. Instead there was concepts of debugging introduced. 
