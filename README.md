@@ -56,3 +56,7 @@ If you're a programmer, you've probably made a program like this. The point is t
 ## Day 13
 ### Debugging
 The content I've been following didn't have a project for this day. Instead there was concepts of debugging introduced. 
+
+## Day 14
+### Higher-Lower
+In this game/quiz the user tries to guess which of the two given famous people have bigger social media following. 
