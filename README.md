@@ -60,3 +60,7 @@ The content I've been following didn't have a project for this day. Instead ther
 ## Day 14
 ### Higher-Lower
 In this game/quiz the user tries to guess which of the two given famous people have bigger social media following. 
+
+## Day 15
+### Coffee Machine
+Somehow tried to mimic the funtionality of coffee machine found in cafes or homes. Doesn't leak onto your keyboard.

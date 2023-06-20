@@ -1,9 +1,13 @@
+'''
+    Program tries to mimic a coffee machine.
+    User is asked which kind of drink they want.
+    User will then insert money into the machine and if it's enough, their drink is made.
+    Resources are reduced mased on which kind of drink it was.
+    Other functions are "off" and "report"
+'''
+
 from stats import MENU, resources
 
-current_drink = {}
-
-#TODO give back the amount of money that was over the price of purchase / refund the money if there's not enough
-#TODO reduce the amount of incredients from the resources if everything else is fine and then print the result
 
 def getReport():
     '''Prints the remaining resources'''
@@ -16,15 +20,23 @@ def checkResources(ordered_drink):
             return False
     return True
 
-def checkMoney(ordered_drink):
-    if ordered_drink > resources['money']:
-        print("Sorry not enough money inserted")
+def checkMoney(money, cost):
+    if money < cost:
+        print("Sorry not enough money inserted. Money refunded.")
         return False
     else:
+        change = money - cost
+        print(f"Here's your ${change} change")
+        resources['money'] += cost
         return True
 
-def reduce_resources(res, drink):
-    pass
+def get_payment():
+    return float(input("Please insert money: $"))
+
+def make_order(name, ingredients):
+    for i in ingredients:
+        resources[i] -= ingredients[i]
+    print(f"Here's your {name}.")
 
 while True:
     order = input("What would you like? (espresso/latte/cappuccino): ").lower()
@@ -35,8 +47,8 @@ while True:
     else:
         current_drink = MENU[order]
         if checkResources(current_drink['ingredients']):
-            inserted_money = float(input("Please insert money: $"))
-            resources["money"] =+ inserted_money
-            if checkMoney(current_drink['cost']):
-                taken_resources = reduce_resources(resources, current_drink['ingredients'])
+            inserted_money = get_payment()
+            if checkMoney(inserted_money, current_drink['cost']):
+                make_order(order, current_drink['ingredients'])
+            
                 
