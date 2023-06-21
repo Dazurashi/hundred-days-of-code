@@ -64,3 +64,7 @@ In this game/quiz the user tries to guess which of the two given famous people h
 ## Day 15
 ### Coffee Machine
 Somehow tried to mimic the funtionality of coffee machine found in cafes or homes. Doesn't leak onto your keyboard.
+
+## Day 16
+### Coffee Machine OOP
+The classes were not written by me. The point of this practise was to get familiar with pre-made classes (which I was already familiar with) and repeat similar functionality as on Day 15.
