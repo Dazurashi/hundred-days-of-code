@@ -68,3 +68,7 @@ Somehow tried to mimic the funtionality of coffee machine found in cafes or home
 ## Day 16
 ### Coffee Machine OOP
 The classes were not written by me. The point of this practise was to get familiar with pre-made classes (which I was already familiar with) and repeat similar functionality as on Day 15.
+
+## Day 17
+### Quiz Game
+Well, it's a quiz game. User is asked true/false questions and they try to score as high as possible.
