@@ -72,3 +72,7 @@ The classes were not written by me. The point of this practise was to get famili
 ## Day 17
 ### Quiz Game
 Well, it's a quiz game. User is asked true/false questions and they try to score as high as possible.
+
+## Day 18
+### Hist Painting
+Supposedly paintings like this program makes, were sold for half a million dollars. If you want to pay me the same, please contact me. 
