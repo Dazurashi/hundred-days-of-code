@@ -76,3 +76,7 @@ Well, it's a quiz game. User is asked true/false questions and they try to score
 ## Day 18
 ### Hist Painting
 Supposedly paintings like this program makes, were sold for half a million dollars. If you want to pay me the same, please contact me. 
+
+## Day 19
+### Turtle Race
+User bets on a turtle. Turtles then race towards the end of the screen and user hopes for the best.
