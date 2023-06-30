@@ -1,5 +1,5 @@
 import turtle as t
-
+#TODO movement with keyboard
 STARTING_POS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
 
