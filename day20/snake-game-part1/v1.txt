@@ -1,0 +1,1 @@
+In version 1 player is able to move the snake with kyboard input. Game does not end until player exits the program. Program is made in simple class architecture. 
