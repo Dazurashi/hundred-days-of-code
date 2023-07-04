@@ -80,3 +80,7 @@ Supposedly paintings like this program makes, were sold for half a million dolla
 ## Day 19
 ### Turtle Race
 User bets on a turtle. Turtles then race towards the end of the screen and user hopes for the best.
+
+## Day 20
+### Snake Game V1
+First version of the classic snake game. This project will be updated in the following days.
