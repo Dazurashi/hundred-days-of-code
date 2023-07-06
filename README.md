@@ -84,3 +84,7 @@ User bets on a turtle. Turtles then race towards the end of the screen and user 
 ## Day 20
 ### Snake Game V1
 First version of the classic snake game. This project will be updated in the following days.
+
+## Day 21
+### Sanke Game V2
+The game now works as intended. There are further updates in the future like adding highscore.

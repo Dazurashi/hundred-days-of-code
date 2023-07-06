@@ -35,10 +35,8 @@ while True:
         scoreboard.game_over()
         break
 
-    for seg in snake.segments:
-        if seg == snake.head:
-            pass
-        elif snake.head.distance(seg) < 10:
+    for seg in snake.segments[1:]:
+        if snake.head.distance(seg) < 10:
             scoreboard.game_over()
             break
 

@@ -1,0 +1,1 @@
+In version 2 the snake game is complete to how it typically works.
