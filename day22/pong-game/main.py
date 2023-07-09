@@ -30,4 +30,7 @@ while True:
     if ball.distance(paddle_1) < 50 and ball.xcor() > 320 or ball.distance(paddle_2) < 50 and ball.xcor() < -320:
         ball.catch()
 
+    if ball.xcor() > 380 or ball.xcor() < -380:
+        ball.reset_position()
+
 screen.exitonclick()
