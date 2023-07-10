@@ -88,3 +88,7 @@ First version of the classic snake game. This project will be updated in the fol
 ## Day 21
 ### Sanke Game V2
 The game now works as intended. There are further updates in the future like adding highscore.
+
+## Day 22
+### Ping Pong Game
+Most people know what this is. If you don't, try it out!
