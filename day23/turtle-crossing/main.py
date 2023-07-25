@@ -21,3 +21,13 @@ while game_is_on:
 
     car.create_car()
     car.move_car()
+
+    for cars in car.all_cars:
+        if cars.distance(tutel) < 20:
+            game_is_on = False
+
+    if tutel.is_finish():
+        tutel.starting_pos()
+        car.more_speed()
+
+screen.exitonclick()
