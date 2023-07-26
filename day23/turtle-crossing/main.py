@@ -10,6 +10,7 @@ screen.tracer(0)
 
 tutel = Player()
 car = CarManager()
+scoreboard = Scoreboard()
 
 screen.listen()
 screen.onkey(tutel.move, "Up")
