@@ -26,9 +26,11 @@ while game_is_on:
     for cars in car.all_cars:
         if cars.distance(tutel) < 20:
             game_is_on = False
+            scoreboard.game_over()
 
     if tutel.is_finish():
         tutel.starting_pos()
         car.more_speed()
+        scoreboard.level_up()
 
 screen.exitonclick()

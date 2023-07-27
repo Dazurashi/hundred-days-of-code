@@ -25,3 +25,5 @@ class Player(t.Turtle):
         
     def starting_pos(self):
         self.goto(STARTING_POSITION)
+
+    
