@@ -92,3 +92,11 @@ The game now works as intended. There are further updates in the future like add
 ## Day 22
 ### Ping Pong Game
 Most people know what this is. If you don't, try it out!
+
+## Day 23
+### Turtle Crossing Game
+A game where you try to cross the road as a turtle while avoiding traffic. Traffic gets faster as you progress to new level.
+
+## Day 24
+### Birthday Invitation Generator
+This program will read invitations from a text file and then create invitation for each person in it. Point of this practise was to use paths and manipulate files.
