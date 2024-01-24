@@ -100,3 +100,7 @@ A game where you try to cross the road as a turtle while avoiding traffic. Traff
 ## Day 24
 ### Birthday Invitation Generator
 This program will read invitations from a text file and then create invitation for each person in it. Point of this practise was to use paths and manipulate files.
+
+## Day 25
+### The states of the USA guessing game
+Player is trying to name all 50 states.
