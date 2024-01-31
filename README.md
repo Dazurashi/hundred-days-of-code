@@ -104,3 +104,7 @@ This program will read invitations from a text file and then create invitation f
 ## Day 25
 ### The states of the USA guessing game
 Player is trying to name all 50 states.
+
+## Day 26
+### NATO Alphabets
+User will enter a word for the program and it will change it into a list of NATO alphabets. For example: input = "Bob" -> output = ['Bravo', 'Oscar', 'Bravo']
