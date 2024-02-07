@@ -115,5 +115,5 @@ GUI in tkniter to do what title says
 
 ## Day 28
 ### Pomodoro Timer
-![TOMATO!](day28/pomodoro_example.png)
+![TOMATO!](day28/pomodoro_example.png) <br />
 A pomodoro timer. There are 4x 20 minute sessions. After 3 of the first sessions there are 5 minute breaks but after the 4th session there's a longer 20 minute break. User is able to reset the session manually.
