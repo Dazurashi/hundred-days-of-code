@@ -21,7 +21,6 @@ Classic rock-paper-scissors game.
 ## Day 5
 ### FizzBuzz
 Solution for classic FizzBuzz program.
-
 ### Password Generator
 Generates a password based on user input.
 
@@ -115,5 +114,10 @@ GUI in tkniter to do what title says
 
 ## Day 28
 ### Pomodoro Timer
-![TOMATO!](day28/pomodoro_example.png) <br />
-A pomodoro timer. There are 4x 20 minute sessions. After 3 of the first sessions there are 5 minute breaks but after the 4th session there's a longer 20 minute break. User is able to reset the session manually.
+A pomodoro timer. There are 4x 20 minute sessions. After 3 of the first sessions there are 5 minute breaks but after the 4th session there's a longer 20 minute break. User is able to reset the session manually. <br/>
+![TOMATO!](day28/pomodoro_example.png) 
+
+## Day 29
+### Password Manager
+Application which stores usernames and passwords of given websites into a "very safe" text file so the user don't have to memorize them. Once all fields are filled, the user is asked to confirm their input before saving. If any of the fields are empty before saving, an error is shown. User is also able to generate more complex password. <br/>
+![PASSW!](day29/pw_manager_example.png)
