@@ -6,7 +6,7 @@ A dull basic program to generate a "band" name from user input.
 
 ## Day 2
 ### Tip Calculator
-Program which asks user the total bill, persentage of tip they want to pay and how many people will split the bill. Then it calculates how much each person should pay. 
+Program which asks user the total bill, percentage of tip they want to pay and how many people will split the bill. Then it calculates how much each person should pay. 
 
 ## Day 3
 ### Adventure Game
@@ -94,11 +94,11 @@ Most people know what this is. If you don't, try it out!
 
 ## Day 23
 ### Turtle Crossing Game
-A game where you try to cross the road as a turtle while avoiding traffic. Traffic gets faster as you progress to new level.
+A game where you try to cross the road as a turtle while avoiding traffic. Traffic gets faster as you progress to a new level.
 
 ## Day 24
 ### Birthday Invitation Generator
-This program will read invitations from a text file and then create invitation for each person in it. Point of this practise was to use paths and manipulate files.
+This program will read invitations from a text file and then create an invitation for each person in it. The point of this practice was to use paths and manipulate files.
 
 ## Day 25
 ### The states of the USA guessing game
@@ -114,10 +114,14 @@ GUI in tkniter to do what title says
 
 ## Day 28
 ### Pomodoro Timer
-A pomodoro timer. There are 4x 20 minute sessions. After 3 of the first sessions there are 5 minute breaks but after the 4th session there's a longer 20 minute break. User is able to reset the session manually. <br/>
+A pomodoro timer. There are 4x 20-minute sessions. After 3 of the first sessions there are 5-minute breaks but after the 4th session there's a longer 20-minute break. User is able to reset the session manually. <br/>
 ![TOMATO!](day28/pomodoro_example.png) 
 
 ## Day 29
 ### Password Manager
-Application which stores usernames and passwords of given websites into a "very safe" text file so the user don't have to memorize them. Once all fields are filled, the user is asked to confirm their input before saving. If any of the fields are empty before saving, an error is shown. User is also able to generate more complex password. <br/>
+An application that stores usernames and passwords of given websites into a "very safe" JSON file so the user doesn't have to memorize them. Once all fields are filled, the user is asked to confirm their input before saving. If any of the fields are empty before saving, an error is shown. The user is also able to generate more complex passwords. The user is also able to search for existing data. <br/>
 ![PASSW!](day29/pw_manager_example.png)
+
+## Day 30
+### Improvements 
+Made improvements to a couple of the existing programs. The changelog is found inside the day folder.

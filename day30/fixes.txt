@@ -1,0 +1,5 @@
+DAY 30 CHANGELOG
+
+- Nato alphabet program in day26 now has error checking for symbols and numbers
+- Password Manager program in day29 now saves data in JSON format
+- Password Manager also now features a search option which eliminates the need for user to browse the data file

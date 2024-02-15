@@ -8,6 +8,23 @@ Before adding, user is asked for confirmation and an error is shown if any of th
 import tkinter as tk
 from tkinter import messagebox
 import random
+import json
+
+# ---------------------------- SEARCH ------------------------------- #
+def search():
+    website = website_entry.get().lower()
+
+    try:
+        with open("data.json", mode="r") as file:
+            data = json.load(file)
+            if website in data:
+                email = data[website]["email"]
+                password = data[website]["password"]
+                messagebox.showinfo(title="Search results", message=f"Data for {website.title()}\nUsername/Email: {email}\nPassword: {password}")
+            else:
+                messagebox.showerror(title="Search results", message="Data not found")
+    except (FileNotFoundError, json.JSONDecodeError):
+        messagebox.showerror(title="Error", message="No data in data file")
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
@@ -28,16 +45,25 @@ def generate_password():
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_password():
-    ws = website_entry.get()
+    ws = website_entry.get().lower()
     em = email_entry.get()
     pw = password_entry.get()
+    new_data = {ws: {"email":em, "password": pw}}
 
     if len(ws) == 0 or len(em) == 0 or len(pw) == 0:
         messagebox.showerror(title="Error", message="One or more fields are empty!")
 
-    elif messagebox.askokcancel(title="Confirm", message=f"Would you like to save the following data?\nWebsite: {ws}\nEmail: {em}\nPassword: {pw}"):
-        with open("data.txt", mode="a+") as file:
-            file.write(f"{ws} | {em} | {pw}\n")
+    else:
+    #elif messagebox.askokcancel(title="Confirm", message=f"Would you like to save the following data?\nWebsite: {ws}\nEmail: {em}\nPassword: {pw}"):
+        try:
+            with open("data.json", mode="r") as file:
+                data = json.load(file)
+                data.update(new_data)
+        except (FileNotFoundError, json.JSONDecodeError):
+            data = new_data
+
+        with open("data.json", mode="w") as file:
+            json.dump(data, file, indent=4)
             
         website_entry.delete(0, tk.END)
         email_entry.delete(0, tk.END)
@@ -66,21 +92,24 @@ password_label = tk.Label(text="Password:")
 password_label.grid(column=0, row=3)
 
 #Entries
-website_entry = tk.Entry(width=52)
+website_entry = tk.Entry(width=34)
 website_entry.grid(column=1, row=1, columnspan=2, sticky="W")
 website_entry.focus()
 
-email_entry = tk.Entry(width=52)
-email_entry.grid(column=1, row=2, columnspan=2, sticky="W")
+email_entry = tk.Entry()
+email_entry.grid(column=1, row=2, columnspan=2, sticky="WE")
 
 password_entry = tk.Entry(width=34)
 password_entry.grid(column=1, row=3, sticky="W")
 
 #Buttons
+search_button = tk.Button(text="Search", command=search)
+search_button.grid(column=2, row=1, sticky="WE")
+
 generate_button = tk.Button(text="Generate Password", command=generate_password)
-generate_button.grid(column=2, row=3, sticky="W")
+generate_button.grid(column=2, row=3, sticky="WE")
 
 add_button = tk.Button(text="Add", width=44, command=save_password)
-add_button.grid(column=1, row=4, columnspan=2, sticky="W")
+add_button.grid(column=1, row=4, columnspan=2, sticky="WE")
 
 window.mainloop()
