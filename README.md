@@ -120,7 +120,7 @@ A pomodoro timer. There are 4x 20-minute sessions. After 3 of the first sessions
 ## Day 29
 ### Password Manager
 An application that stores usernames and passwords of given websites into a "very safe" JSON file so the user doesn't have to memorize them. Once all fields are filled, the user is asked to confirm their input before saving. If any of the fields are empty before saving, an error is shown. The user is also able to generate more complex passwords. The user is also able to search for existing data. <br/>
-![PASSW!](day29/pw_manager_example.png)
+
 
 ## Day 30
 ### Improvements 
