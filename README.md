@@ -125,3 +125,9 @@ An application that stores usernames and passwords of given websites into a "ver
 ## Day 30
 ### Improvements 
 Made improvements to a couple of the existing programs. The changelog is found inside the day folder.
+
+## Day 31
+### Flash Card App (demo)
+This is a simple flash card application that can be used to memorize various things such as vocabulary. In this demo there are 100 French words with English translations on the backside. If the user presses the green button, the word will be deleted and next time the app is launched, it is not asked again. Red button returns the word into the stack. User has 3 seconds to recall the meaning of the word before answer is revealed. <br/>
+![CARDFRONT!](day31/app_front_example.png)
+![CARDBACK!](day31/app_back_example.png)
