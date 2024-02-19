@@ -131,3 +131,7 @@ Made improvements to a couple of the existing programs. The changelog is found i
 This is a simple flash card application that can be used to memorize various things such as vocabulary. In this demo there are 100 French words with English translations on the backside. If the user presses the green button, the word will be deleted and next time the app is launched, it is not asked again. Red button returns the word into the stack. User has 3 seconds to recall the meaning of the word before answer is revealed. <br/>
 ![CARDFRONT!](day31/app_front_example.png)
 ![CARDBACK!](day31/app_back_example.png)
+
+## Day 32
+### Automatic Happy Birthday Email
+This program checks if someone in the list has their birthday on the day the program runs and sends them an email.
