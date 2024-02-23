@@ -85,7 +85,7 @@ User bets on a turtle. Turtles then race towards the end of the screen and user 
 First version of the classic snake game. This project will be updated in the following days.
 
 ## Day 21
-### Sanke Game V2
+### Snake Game V2
 The game now works as intended. There are further updates in the future like adding highscore.
 
 ## Day 22
@@ -110,7 +110,7 @@ User will enter a word for the program and it will change it into a list of NATO
 
 ## Day 27
 ### Miles to kilometers converter
-GUI in tkniter to do what title says
+GUI in tkinter to do what title says
 
 ## Day 28
 ### Pomodoro Timer
@@ -139,3 +139,8 @@ This program checks if someone in the list has their birthday on the day the pro
 ## Day 33
 ### ISS Overhead Notifier
 The program will check two conditions: is the ISS above the given location and is it night time so it would be visible. If both conditions are true, the program will send an email to the user to notify them and tell them to look up in the sky.
+
+## Day 34 
+### Quiz Game 2.0
+Improved version of the day 17 quiz game. It now has a GUI and fetches random questions using Open Trivia DB API. User gets either green or red flash (right or wrong) as the feedback when they answer the questions. <br/>
+![QUIZGAME!](day34/images/example_image.png)
